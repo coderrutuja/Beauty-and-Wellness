@@ -1,0 +1,33 @@
+.contact-section {
+    padding: 60px 0;
+    background-color: #f7f7f7;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-section .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-section .btn {
+    margin-top: 10px;
+}
+
+.contact-section .contact-info {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.contact-section .contact-info li {
+    margin-bottom: 15px;
+}
+
+.contact-section .contact-info i {
+    margin-right: 10px;
+    color: #007bff;
+}

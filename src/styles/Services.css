@@ -1,0 +1,30 @@
+.services-section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.services-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.service-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-box img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 16px;
+    color: #666;
+}

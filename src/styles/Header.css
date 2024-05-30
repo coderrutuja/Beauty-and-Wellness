@@ -1,0 +1,19 @@
+.header {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.nav-link {
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+.logo {
+    height: 40px; /* Adjust as necessary */
+    width: auto;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}

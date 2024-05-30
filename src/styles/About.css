@@ -1,0 +1,38 @@
+.about-section {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Adjust as necessary */
+    background: url('../assets/images/about.png') no-repeat center center/cover; /* Ensure the path is correct */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white;
+}
+
+.about-content {
+    max-width: 40%;
+    text-align: left;
+    padding: 20px;
+    margin-left: 5%;
+    z-index: 2; /* Ensure the text is above the overlay */
+    background: none; /* Remove background */
+}
+
+.about-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1); /* Slight opacity overlay */
+    z-index: 1;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}

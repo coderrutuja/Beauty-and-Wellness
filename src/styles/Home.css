@@ -1,0 +1,39 @@
+.home-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+    background: url('../assets/images/home-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    height: 100vh; /* Make the section cover the full viewport height */
+    margin: 0; /* Remove any default margins */
+}
+
+.home-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust opacity here */
+    z-index: 1;
+}
+
+.home-section h1,
+.home-section p {
+    position: relative;
+    z-index: 2;
+}
+
+.home-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 1.5rem;
+}

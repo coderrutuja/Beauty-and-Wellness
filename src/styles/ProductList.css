@@ -1,0 +1,10 @@
+.product-list-section {
+    padding: 60px 0;
+    background-color: #f7f7f7;
+}
+
+.product-list-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
