@@ -12,12 +12,12 @@
 
 ## Home Page
 
-<img src="../assests/images/Screenshot homepage.png" width='800' height='auto'>
+<img src="./Screenshot homepage.png" width='800' height='auto'>
 <br>
 
 ## Products Page
 
-<img src="../assets/images/Screenshot products.png" width='800' height='auto'>
+<img src="./Screenshot products.png" width='800' height='auto'>
 <br>
 
 ### LINK :
